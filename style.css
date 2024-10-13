@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+}
+
+#gameCanvas {
+    /* Add your game-specific styling here */
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #fff; /* White border */
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 1.2rem;
+}
